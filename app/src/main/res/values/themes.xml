@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PTS_B" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/background</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+
+        <!--        TODO : by changing the statusBarColor we can change the status bar color-->
+        <item name="android:statusBarColor">@color/colorStatusBar</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.PTS_B.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.PTS_B.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.PTS_B.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="trafficSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/trafficColor</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:colorForeground">#80FFFFFF</item>
+    </style>
+
+    <style name="weatherSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/weatherColor</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:colorForeground">#80FFFFFF</item>
+    </style>
+
+    <style name="todo_remainderSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:colorForeground">#A1FFFFFF</item>
+    </style>
+
+</resources>
+
+
+
+
+    <!--TODO : FOR CHANGING COLOR OF THEME-> https://www.tutorialkart.com/kotlin-android/change-background-color-of-action-bar-in-android/-->
