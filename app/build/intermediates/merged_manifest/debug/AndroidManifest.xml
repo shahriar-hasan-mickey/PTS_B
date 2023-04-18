@@ -17,8 +17,8 @@
         android:name="humble.slave.pts_b.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="humble.slave.pts_b.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-
+    <uses-permission android:name="humble.slave.pts_b.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- <uses-permission android:name="android.permission.BROADCAST_SMS" -->
+    <!-- tools:ignore="ProtectedPermissions" /> -->
     <application
         android:name="humble.slave.pts_b.services.App"
         android:allowBackup="true"

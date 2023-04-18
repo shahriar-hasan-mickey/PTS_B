@@ -1,162 +1,158 @@
 [
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/xml/data_extraction_rules.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/layout_activity_traffic.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/layout/activity_traffic.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable_baseline_speaker_notes_24.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable/baseline_speaker_notes_24.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable_baseline_lock_24.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable/baseline_lock_24.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable_baseline_edit_note_24.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable/baseline_edit_note_24.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable_baseline_account_circle_24.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable/baseline_account_circle_24.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "humble.slave.pts_b.app-main-31:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable/ic_launcher_background.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "humble.slave.pts_b.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/layout_activity_todo_reminder.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/layout/activity_todo_reminder.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable_go_back.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable/go_back.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "humble.slave.pts_b.app-main-31:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "humble.slave.pts_b.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/xml_backup_rules.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/xml/backup_rules.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/layout_activity_settings.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/layout/activity_settings.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable_baseline_edit_note_24.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable/baseline_edit_note_24.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "humble.slave.pts_b.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/xml/backup_rules.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable_traffic_background.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable/traffic_background.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/layout/activity_main.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/layout_activity_weather.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/layout/activity_weather.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable_go_back.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable/go_back.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/layout_activity_todo_reminder.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/layout/activity_todo_reminder.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "humble.slave.pts_b.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/layout_activity_previous_items.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/layout/activity_previous_items.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "humble.slave.pts_b.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/layout_activity_receiver_contacts.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/layout/activity_receiver_contacts.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable_option_block.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable/option_block.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable_baseline_traffic_24.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable/baseline_traffic_24.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/mipmap-anydpi-v33/ic_launcher.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/layout_activity_previous_items.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/layout/activity_previous_items.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable_track.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable/track.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "humble.slave.pts_b.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable_option_block.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable/option_block.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable_todo_remainder.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable/todo_remainder.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable_thumb.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable/thumb.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "humble.slave.pts_b.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable_baseline_speaker_notes_24.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable/baseline_speaker_notes_24.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable_baseline_wb_sunny_24.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable/baseline_wb_sunny_24.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable_baseline_lock_24.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable/baseline_lock_24.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/layout_activity_weather.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/layout/activity_weather.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "humble.slave.pts_b.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
         "merged": "humble.slave.pts_b.app-merged_res-29:/layout_activity_home_screen.xml.flat",
         "source": "humble.slave.pts_b.app-main-31:/layout/activity_home_screen.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/layout_activity_settings.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/layout/activity_settings.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable_weather_round_icon_background.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable/weather_round_icon_background.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable_baseline_wb_sunny_24.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable/baseline_wb_sunny_24.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/layout_activity_receiver_contacts.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/layout/activity_receiver_contacts.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable_todo_remainder.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable/todo_remainder.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable_baseline_add_circle_outline_24.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable/baseline_add_circle_outline_24.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable_baseline_account_circle_24.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable/baseline_account_circle_24.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/layout_activity_main.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/layout/activity_main.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable_track.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable/track.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable_baseline_traffic_24.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable/baseline_traffic_24.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable_traffic_background.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable/traffic_background.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/layout_activity_home_screen.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/layout/activity_home_screen.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/drawable_thumb.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/drawable/thumb.xml"
     },
     {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable_weather_round_icon_background.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable/weather_round_icon_background.xml"
-    },
-    {
-        "merged": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-merged_res-29:/drawable_baseline_add_circle_outline_24.xml.flat",
-        "source": "/home/slave/.gradle/daemon/7.5/humble.slave.pts_b.app-main-31:/drawable/baseline_add_circle_outline_24.xml"
+        "merged": "humble.slave.pts_b.app-merged_res-29:/layout_activity_traffic.xml.flat",
+        "source": "humble.slave.pts_b.app-main-31:/layout/activity_traffic.xml"
     }
 ]
