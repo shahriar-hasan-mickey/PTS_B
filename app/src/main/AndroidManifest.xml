@@ -10,7 +10,7 @@
 <!--        tools:ignore="ProtectedPermissions" />-->
 
     <application
-        android:name=".services.App"
+        android:name=".features.presenter.services.App"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -49,7 +49,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".services.ReceiveAndSendSMS"
+        <service android:name=".features.presenter.services.ReceiveAndSendSMS"
             android:enabled="true"
             android:exported="true">
 
