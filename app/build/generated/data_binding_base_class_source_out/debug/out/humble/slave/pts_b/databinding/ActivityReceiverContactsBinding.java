@@ -26,11 +26,15 @@ public final class ActivityReceiverContactsBinding implements ViewBinding {
   @NonNull
   public final RelativeLayout invisibleActionBar;
 
+  @NonNull
+  public final RelativeLayout testSMS;
+
   private ActivityReceiverContactsBinding(@NonNull LinearLayout rootView, @NonNull ImageView goBack,
-      @NonNull RelativeLayout invisibleActionBar) {
+      @NonNull RelativeLayout invisibleActionBar, @NonNull RelativeLayout testSMS) {
     this.rootView = rootView;
     this.goBack = goBack;
     this.invisibleActionBar = invisibleActionBar;
+    this.testSMS = testSMS;
   }
 
   @Override
@@ -72,8 +76,14 @@ public final class ActivityReceiverContactsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.testSMS;
+      RelativeLayout testSMS = ViewBindings.findChildViewById(rootView, id);
+      if (testSMS == null) {
+        break missingId;
+      }
+
       return new ActivityReceiverContactsBinding((LinearLayout) rootView, goBack,
-          invisibleActionBar);
+          invisibleActionBar, testSMS);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -40,6 +40,7 @@ id receiverContacts
 id setPassword
 id settings
 id startStop
+id testSMS
 id textLogo
 id todoRemainder
 id todo_remainderIcon
