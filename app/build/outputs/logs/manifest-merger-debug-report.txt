@@ -115,7 +115,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/slave
 	android:dataExtractionRules
 		ADDED from /home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:15:9-65
 	android:name
-		ADDED from /home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:13:9-37
+		ADDED from /home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:13:9-56
 activity#humble.slave.pts_b.features.view.ReceiverContacts
 ADDED from /home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:22:9-24:40
 	android:exported
@@ -174,14 +174,14 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:49:17-77
 	android:name
 		ADDED from /home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:49:27-74
-service#humble.slave.pts_b.services.ReceiveAndSendSMS
+service#humble.slave.pts_b.features.presenter.services.ReceiveAndSendSMS
 ADDED from /home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:52:9-56:19
 	android:enabled
 		ADDED from /home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:53:13-35
 	android:exported
 		ADDED from /home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:54:13-36
 	android:name
-		ADDED from /home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:52:18-60
+		ADDED from /home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:52:18-79
 uses-sdk
 INJECTED from /home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml
