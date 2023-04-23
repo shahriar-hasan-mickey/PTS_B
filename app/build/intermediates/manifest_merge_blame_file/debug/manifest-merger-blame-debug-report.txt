@@ -6,155 +6,162 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml
+8-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml
+9-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:5:5-66
-11-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:5:22-64
-12    <uses-permission android:name="android.permission.RECEIVE_SMS" />
-12-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:6:5-69
-12-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:6:22-67
-13    <uses-permission android:name="android.permission.READ_SMS" />
-13-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:7:5-66
-13-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:7:22-64
-14    <uses-permission android:name="android.permission.SEND_SMS" />
-14-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:8:5-66
-14-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:8:22-64
-15
-16    <permission
-16-->[androidx.core:core:1.9.0] /home/slave/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-17        android:name="humble.slave.pts_b.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-17-->[androidx.core:core:1.9.0] /home/slave/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-18        android:protectionLevel="signature" />
-18-->[androidx.core:core:1.9.0] /home/slave/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+11    <uses-feature
+11-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.telephony"
+12-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:6:9-50
+13        android:required="false" />
+13-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:9:5-66
+15-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+16-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:10:5-69
+16-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:10:22-67
+17    <uses-permission android:name="android.permission.READ_SMS" />
+17-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:11:5-66
+17-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.SEND_SMS" />
+18-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:12:5-66
+18-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:12:22-64
 19
-20    <uses-permission android:name="humble.slave.pts_b.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- <uses-permission android:name="android.permission.BROADCAST_SMS" -->
-20-->[androidx.core:core:1.9.0] /home/slave/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-20-->[androidx.core:core:1.9.0] /home/slave/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
-21    <!-- tools:ignore="ProtectedPermissions" /> -->
-22    <application
-22-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:12:5-65:19
-23        android:name="humble.slave.pts_b.features.presenter.services.App"
-23-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:13:9-56
-24        android:allowBackup="true"
-24-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:14:9-35
-25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-25-->[androidx.core:core:1.9.0] /home/slave/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-26        android:dataExtractionRules="@xml/data_extraction_rules"
-26-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:15:9-65
-27        android:debuggable="true"
-28        android:extractNativeLibs="false"
-29        android:fullBackupContent="@xml/backup_rules"
-29-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:16:9-54
-30        android:icon="@mipmap/ic_launcher"
-30-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:17:9-43
-31        android:label="@string/app_name"
-31-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:18:9-41
-32        android:supportsRtl="true"
-32-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:19:9-35
-33        android:testOnly="true"
-34        android:theme="@style/Theme.PTS_B" >
-34-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:20:9-43
-35        <activity
-35-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:22:9-24:40
-36            android:name="humble.slave.pts_b.features.view.ReceiverContacts"
-36-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:23:13-59
-37            android:exported="false" />
-37-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:24:13-37
-38        <activity
-38-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:25:9-27:40
-39            android:name="humble.slave.pts_b.features.view.PreviousItems"
-39-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:26:13-56
-40            android:exported="false" />
-40-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:27:13-37
-41        <activity
-41-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:28:9-30:40
-42            android:name="humble.slave.pts_b.features.view.TodoReminder"
-42-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:29:13-55
-43            android:exported="false" />
-43-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:30:13-37
-44        <activity
-44-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:31:9-33:40
-45            android:name="humble.slave.pts_b.features.view.Weather"
-45-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:32:13-50
-46            android:exported="false" />
-46-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:33:13-37
-47        <activity
-47-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:34:9-36:40
-48            android:name="humble.slave.pts_b.features.view.Traffic"
-48-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:35:13-50
-49            android:exported="false" />
-49-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:36:13-37
-50        <activity
-50-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:37:9-39:40
-51            android:name="humble.slave.pts_b.features.view.Settings_Activity"
-51-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:38:13-60
-52            android:exported="false" />
-52-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:39:13-37
-53        <activity
-53-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:40:9-42:40
-54            android:name="humble.slave.pts_b.features.view.HomeScreen"
-54-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:41:13-53
-55            android:exported="false" />
-55-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:42:13-37
-56        <activity
-56-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:43:9-51:20
-57            android:name="humble.slave.pts_b.features.view.MainActivity"
-57-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:44:13-55
-58            android:exported="true" >
-58-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:45:13-36
-59            <intent-filter>
-59-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:46:13-50:29
-60                <action android:name="android.intent.action.MAIN" />
-60-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:47:17-69
-60-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:47:25-66
-61
-62                <category android:name="android.intent.category.LAUNCHER" />
-62-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:49:17-77
-62-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:49:27-74
-63            </intent-filter>
-64        </activity>
+20    <permission
+20-->[androidx.core:core:1.9.0] C:\Users\shahr\.gradle\caches\transforms-3\8c25e88eb4ea76e8f3d0900731d8ae12\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+21        android:name="humble.slave.pts_b.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] C:\Users\shahr\.gradle\caches\transforms-3\8c25e88eb4ea76e8f3d0900731d8ae12\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] C:\Users\shahr\.gradle\caches\transforms-3\8c25e88eb4ea76e8f3d0900731d8ae12\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="humble.slave.pts_b.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- <uses-permission android:name="android.permission.BROADCAST_SMS" -->
+24-->[androidx.core:core:1.9.0] C:\Users\shahr\.gradle\caches\transforms-3\8c25e88eb4ea76e8f3d0900731d8ae12\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] C:\Users\shahr\.gradle\caches\transforms-3\8c25e88eb4ea76e8f3d0900731d8ae12\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+25    <!-- tools:ignore="ProtectedPermissions" /> -->
+26    <application
+26-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:16:5-69:19
+27        android:name="humble.slave.pts_b.features.presenter.services.App"
+27-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:17:9-56
+28        android:allowBackup="true"
+28-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:18:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.9.0] C:\Users\shahr\.gradle\caches\transforms-3\8c25e88eb4ea76e8f3d0900731d8ae12\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:19:9-65
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:fullBackupContent="@xml/backup_rules"
+33-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:20:9-54
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:21:9-43
+35        android:label="@string/app_name"
+35-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:22:9-41
+36        android:supportsRtl="true"
+36-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:23:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.PTS_B" >
+38-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:24:9-43
+39        <activity
+39-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:26:9-28:40
+40            android:name="humble.slave.pts_b.features.view.ReceiverContacts"
+40-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:27:13-59
+41            android:exported="false" />
+41-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:28:13-37
+42        <activity
+42-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:29:9-31:40
+43            android:name="humble.slave.pts_b.features.view.PreviousItems"
+43-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:30:13-56
+44            android:exported="false" />
+44-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:31:13-37
+45        <activity
+45-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:32:9-34:40
+46            android:name="humble.slave.pts_b.features.view.TodoReminder"
+46-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:33:13-55
+47            android:exported="false" />
+47-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:34:13-37
+48        <activity
+48-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:35:9-37:40
+49            android:name="humble.slave.pts_b.features.view.Weather"
+49-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:36:13-50
+50            android:exported="false" />
+50-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:37:13-37
+51        <activity
+51-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:38:9-40:40
+52            android:name="humble.slave.pts_b.features.view.Traffic"
+52-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:39:13-50
+53            android:exported="false" />
+53-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:40:13-37
+54        <activity
+54-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:41:9-43:40
+55            android:name="humble.slave.pts_b.features.view.Settings_Activity"
+55-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:42:13-60
+56            android:exported="false" />
+56-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:43:13-37
+57        <activity
+57-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:44:9-46:40
+58            android:name="humble.slave.pts_b.features.view.HomeScreen"
+58-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:45:13-53
+59            android:exported="false" />
+59-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:46:13-37
+60        <activity
+60-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:47:9-55:20
+61            android:name="humble.slave.pts_b.features.view.MainActivity"
+61-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:48:13-55
+62            android:exported="true" >
+62-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:49:13-36
+63            <intent-filter>
+63-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:50:13-54:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:51:17-69
+64-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:51:25-66
 65
-66        <service
-66-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:52:9-56:19
-67            android:name="humble.slave.pts_b.features.presenter.services.ReceiveAndSendSMS"
-67-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:52:18-79
-68            android:enabled="true"
-68-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:53:13-35
-69            android:exported="true" >
-69-->/home/slave/AndroidStudioProjects/PTS_B/app/src/main/AndroidManifest.xml:54:13-36
-70        </service>
-71        <!-- <receiver android:name=".services.myBroadcastReceiver" -->
-72        <!-- android:exported="true"> -->
-73        <!-- <intent-filter> -->
-74        <!-- <action android:name="com.example.BroadCastInService"/> -->
-75        <!-- <category android:name="android.intent.category.DEFAULT"/> -->
-76        <!-- </intent-filter> -->
-77        <!-- </receiver> -->
-78
-79        <provider
-79-->[androidx.emoji2:emoji2:1.2.0] /home/slave/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-80            android:name="androidx.startup.InitializationProvider"
-80-->[androidx.emoji2:emoji2:1.2.0] /home/slave/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-81            android:authorities="humble.slave.pts_b.androidx-startup"
-81-->[androidx.emoji2:emoji2:1.2.0] /home/slave/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-82            android:exported="false" >
-82-->[androidx.emoji2:emoji2:1.2.0] /home/slave/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-83            <meta-data
-83-->[androidx.emoji2:emoji2:1.2.0] /home/slave/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-84-->[androidx.emoji2:emoji2:1.2.0] /home/slave/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-85                android:value="androidx.startup" />
-85-->[androidx.emoji2:emoji2:1.2.0] /home/slave/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-86            <meta-data
-86-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/slave/.gradle/caches/transforms-3/b0761d22b5c86c7f873b7a426ffce717/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-87-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/slave/.gradle/caches/transforms-3/b0761d22b5c86c7f873b7a426ffce717/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-88                android:value="androidx.startup" />
-88-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/slave/.gradle/caches/transforms-3/b0761d22b5c86c7f873b7a426ffce717/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-89        </provider>
-90    </application>
-91
-92</manifest>
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:53:17-77
+66-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:53:27-74
+67            </intent-filter>
+68        </activity>
+69
+70        <service
+70-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:56:9-60:19
+71            android:name="humble.slave.pts_b.features.presenter.services.ReceiveAndSendSMS"
+71-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:56:18-79
+72            android:enabled="true"
+72-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:57:13-35
+73            android:exported="true" >
+73-->C:\Users\shahr\StudioProjects\PTS_B\app\src\main\AndroidManifest.xml:58:13-36
+74        </service>
+75        <!-- <receiver android:name=".services.myBroadcastReceiver" -->
+76        <!-- android:exported="true"> -->
+77        <!-- <intent-filter> -->
+78        <!-- <action android:name="com.example.BroadCastInService"/> -->
+79        <!-- <category android:name="android.intent.category.DEFAULT"/> -->
+80        <!-- </intent-filter> -->
+81        <!-- </receiver> -->
+82
+83        <provider
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\shahr\.gradle\caches\transforms-3\0fef484d2d7d3612c69865f977f8c08f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+84            android:name="androidx.startup.InitializationProvider"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\shahr\.gradle\caches\transforms-3\0fef484d2d7d3612c69865f977f8c08f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+85            android:authorities="humble.slave.pts_b.androidx-startup"
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\shahr\.gradle\caches\transforms-3\0fef484d2d7d3612c69865f977f8c08f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+86            android:exported="false" >
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\shahr\.gradle\caches\transforms-3\0fef484d2d7d3612c69865f977f8c08f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+87            <meta-data
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\shahr\.gradle\caches\transforms-3\0fef484d2d7d3612c69865f977f8c08f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\shahr\.gradle\caches\transforms-3\0fef484d2d7d3612c69865f977f8c08f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+89                android:value="androidx.startup" />
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\shahr\.gradle\caches\transforms-3\0fef484d2d7d3612c69865f977f8c08f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+90            <meta-data
+90-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\shahr\.gradle\caches\transforms-3\ae3e8265de2d7f874c642be745cd48da\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+91-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\shahr\.gradle\caches\transforms-3\ae3e8265de2d7f874c642be745cd48da\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+92                android:value="androidx.startup" />
+92-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\shahr\.gradle\caches\transforms-3\ae3e8265de2d7f874c642be745cd48da\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+93        </provider>
+94    </application>
+95
+96</manifest>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "humble.slave.pts_b.app-mergeDebugResources-27:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "humble.slave.pts_b.app-mergeDebugResources-26:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "/home/slave/.gradle/caches/transforms-3/dfe455107600617cfcbe36a5c8cee19f/transformed/material-1.8.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\shahr\\.gradle\\caches\\transforms-3\\bf6a9fc0cc64a6732cf913207b51114b\\transformed\\material-1.8.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
