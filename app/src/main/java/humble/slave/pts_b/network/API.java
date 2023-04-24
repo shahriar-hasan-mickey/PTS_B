@@ -14,6 +14,6 @@ public interface API {
     @GET("weather")
     Call<WeatherInfoResponse> apiWeatherInfoResponse(@Query("q") String cityName, @Query("appid") String APP_ID);
 
-    @GET("")
+    @GET("/")
     Call<HomeServerResponse> apiHomeServerResponse();
 }

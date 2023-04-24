@@ -31,10 +31,8 @@ import humble.slave.pts_b.features.view.HomeScreen;
 
 public class ReceiveAndSendSMS extends Service {
 
-    private static final String TAG = ReceiveAndSendSMS.class.getSimpleName();
-    public static final String pdu_type = "pdus";
 
-    TextToSpeech textToSpeech;
+
     IntentFilter filter;
     IntentFilter filter2;
 
@@ -61,7 +59,7 @@ public class ReceiveAndSendSMS extends Service {
 
 
 //        TODO : https://www.youtube.com/watch?v=FbpD5RZtbCc
-
+//        TODO : https://www.youtube.com/watch?v=FbpD5RZtbCc&t=784s
         String input = "Service Running";
         Intent notificationIntent = new Intent(this, HomeScreen.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, PendingIntent.FLAG_IMMUTABLE);
@@ -70,6 +68,7 @@ public class ReceiveAndSendSMS extends Service {
                 .setContentTitle("Example Service")
                 .setContentText(input)
                 .setSmallIcon(R.drawable.ic_launcher_background)
+                .setContentIntent(pendingIntent)
                 .build();
 
         startForeground(1, notification);
@@ -78,7 +77,7 @@ public class ReceiveAndSendSMS extends Service {
 
 
 
-    private final BroadcastReceiver receiver = new BroadcastReceiver() {
+    private BroadcastReceiver receiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
             Bundle b = intent.getExtras();
@@ -88,6 +87,7 @@ public class ReceiveAndSendSMS extends Service {
             }
         }
     };
+
 
     private final BroadcastReceiver receiver2 = new BroadcastReceiver() {
         @Override
@@ -175,5 +175,6 @@ public class ReceiveAndSendSMS extends Service {
         unregisterReceiver(receiver);
         unregisterReceiver(receiver2);
         unregisterReceiver(receiver4);
+        Toast.makeText(this, "SERVICE DEACTIVATED", Toast.LENGTH_SHORT).show();
     }
 }
