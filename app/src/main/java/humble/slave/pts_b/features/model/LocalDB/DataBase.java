@@ -18,12 +18,14 @@ public class DataBase extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE SettingsState(id TEXT PRIMARY KEY, state TEXT)");
         db.execSQL("CREATE TABLE Messages(id INTEGER PRIMARY KEY AUTOINCREMENT, message TEXT, data DATE)");
+        db.execSQL("CREATE TABLE Remainder(id INTEGER PRIMARY KEY AUTOINCREMENT, todo TEXT, data DATE)");
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS SettingsState");
         db.execSQL("DROP TABLE IF EXISTS Messages");
+        db.execSQL("DROP TABLE IF EXISTS Remainder");
     }
 
     public Boolean insertSettingsData(String id, String state){
@@ -40,6 +42,14 @@ public class DataBase extends SQLiteOpenHelper {
         ContentValues contentValues = new ContentValues();
         contentValues.put("message", message);
         long result = DB.insert("Messages", null, contentValues);
+        return result != -1;
+    }
+
+    public Boolean insertRemainder(String todo){
+        SQLiteDatabase DB = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put("todo", todo);
+        long result = DB.insert("Remainder", null, contentValues);
         return result != -1;
     }
 
@@ -80,6 +90,17 @@ public class DataBase extends SQLiteOpenHelper {
         }
     }
 
+    public Boolean deleteRemainder(String id){
+        SQLiteDatabase DB = this.getWritableDatabase();
+        Cursor cursor = DB.rawQuery("SELECT * FROM Messages WHERE id = ?", new String[]{id});
+        if(cursor.getCount()>0){
+            long result = DB.delete("Remainder", "id = ?", new String[]{id});
+            return result != -1;
+        }else{
+            return false;
+        }
+    }
+
     public Cursor getData(String id){
         SQLiteDatabase DB = this.getWritableDatabase();
         return DB.rawQuery("SELECT * FROM SettingsState WHERE id = ?", new String[]{id});
@@ -88,5 +109,10 @@ public class DataBase extends SQLiteOpenHelper {
     public Cursor getMessage(){
         SQLiteDatabase DB = this.getWritableDatabase();
         return DB.rawQuery("SELECT * FROM Messages", null);
+    }
+
+    public Cursor getRemainder(){
+        SQLiteDatabase DB = this.getWritableDatabase();
+        return DB.rawQuery("SELECT * FROM Remainder", null);
     }
 }
