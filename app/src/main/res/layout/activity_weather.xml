@@ -37,5 +37,42 @@
         </LinearLayout>
 
     </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="">
+
+        <LinearLayout
+            android:background="@drawable/option_block"
+            android:layout_width="match_parent"
+            android:id="@+id/outputBox"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/weatherInfo"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/temperature"
+                    android:hint="CURRENT TEMPERATURE"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
 
 </LinearLayout>

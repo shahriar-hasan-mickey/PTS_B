@@ -17,13 +17,14 @@
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-permission android:name="android.permission.READ_SMS" />
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <permission
         android:name="humble.slave.pts_b.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="humble.slave.pts_b.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- <uses-permission android:name="android.permission.BROADCAST_SMS" -->
-    <!-- tools:ignore="ProtectedPermissions" /> -->
+    <uses-permission android:name="humble.slave.pts_b.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
     <application
         android:name="humble.slave.pts_b.features.presenter.services.App"
         android:allowBackup="true"
@@ -38,10 +39,16 @@
         android:testOnly="true"
         android:theme="@style/Theme.PTS_B" >
         <activity
+            android:name="humble.slave.pts_b.features.view.settingsActivity.AddTwilioAccount"
+            android:exported="false" />
+        <activity
+            android:name="humble.slave.pts_b.features.view.settingsActivity.SetPassword"
+            android:exported="false" />
+        <activity
             android:name="humble.slave.pts_b.features.view.ReceiverContacts"
             android:exported="false" />
         <activity
-            android:name="humble.slave.pts_b.features.view.PreviousItems"
+            android:name="humble.slave.pts_b.features.view.commonActivity.PreviousItems"
             android:exported="false" />
         <activity
             android:name="humble.slave.pts_b.features.view.TodoReminder"
@@ -71,15 +78,7 @@
         <service
             android:name="humble.slave.pts_b.features.presenter.services.ReceiveAndSendSMS"
             android:enabled="true"
-            android:exported="true" >
-        </service>
-        <!-- <receiver android:name=".services.myBroadcastReceiver" -->
-        <!-- android:exported="true"> -->
-        <!-- <intent-filter> -->
-        <!-- <action android:name="com.example.BroadCastInService"/> -->
-        <!-- <category android:name="android.intent.category.DEFAULT"/> -->
-        <!-- </intent-filter> -->
-        <!-- </receiver> -->
+            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

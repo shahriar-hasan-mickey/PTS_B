@@ -6,13 +6,12 @@
         android:name="android.hardware.telephony"
         android:required="false" />
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
-    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
-    <uses-permission android:name="android.permission.READ_SMS"/>
-    <uses-permission android:name="android.permission.SEND_SMS"/>
-<!--    <uses-permission android:name="android.permission.BROADCAST_SMS"-->
-<!--        tools:ignore="ProtectedPermissions" />-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 
     <application
         android:name=".features.presenter.services.App"
@@ -25,10 +24,16 @@
         android:theme="@style/Theme.PTS_B"
         tools:targetApi="31">
         <activity
+            android:name=".features.view.settingsActivity.AddTwilioAccount"
+            android:exported="false" />
+        <activity
+            android:name=".features.view.settingsActivity.SetPassword"
+            android:exported="false" />
+        <activity
             android:name=".features.view.ReceiverContacts"
             android:exported="false" />
         <activity
-            android:name=".features.view.PreviousItems"
+            android:name=".features.view.commonActivity.PreviousItems"
             android:exported="false" />
         <activity
             android:name=".features.view.TodoReminder"
@@ -54,21 +59,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".features.presenter.services.ReceiveAndSendSMS"
+
+        <service
+            android:name=".features.presenter.services.ReceiveAndSendSMS"
             android:enabled="true"
-            android:exported="true">
-
-        </service>
-<!--        <receiver android:name=".services.myBroadcastReceiver"-->
-<!--            android:exported="true">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="com.example.BroadCastInService"/>-->
-<!--                <category android:name="android.intent.category.DEFAULT"/>-->
-<!--            </intent-filter>-->
-<!--        </receiver>-->
-
+            android:exported="true" />
     </application>
-
-
 
 </manifest>

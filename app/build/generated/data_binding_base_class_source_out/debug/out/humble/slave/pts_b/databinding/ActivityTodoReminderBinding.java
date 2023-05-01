@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import humble.slave.pts_b.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -21,14 +22,19 @@ public final class ActivityTodoReminderBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final FloatingActionButton floatingActionButton;
+
+  @NonNull
   public final ImageView goBack;
 
   @NonNull
   public final RelativeLayout invisibleActionBar;
 
-  private ActivityTodoReminderBinding(@NonNull LinearLayout rootView, @NonNull ImageView goBack,
+  private ActivityTodoReminderBinding(@NonNull LinearLayout rootView,
+      @NonNull FloatingActionButton floatingActionButton, @NonNull ImageView goBack,
       @NonNull RelativeLayout invisibleActionBar) {
     this.rootView = rootView;
+    this.floatingActionButton = floatingActionButton;
     this.goBack = goBack;
     this.invisibleActionBar = invisibleActionBar;
   }
@@ -60,6 +66,12 @@ public final class ActivityTodoReminderBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.floatingActionButton;
+      FloatingActionButton floatingActionButton = ViewBindings.findChildViewById(rootView, id);
+      if (floatingActionButton == null) {
+        break missingId;
+      }
+
       id = R.id.goBack;
       ImageView goBack = ViewBindings.findChildViewById(rootView, id);
       if (goBack == null) {
@@ -72,7 +84,8 @@ public final class ActivityTodoReminderBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityTodoReminderBinding((LinearLayout) rootView, goBack, invisibleActionBar);
+      return new ActivityTodoReminderBinding((LinearLayout) rootView, floatingActionButton, goBack,
+          invisibleActionBar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

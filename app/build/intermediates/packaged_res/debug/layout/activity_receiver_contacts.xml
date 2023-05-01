@@ -10,6 +10,7 @@
 
 
     <!--    For the invisible navigation bar    -->
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -44,50 +45,141 @@
         android:foregroundGravity="">
 
         <LinearLayout
-
+            android:background="@drawable/option_block"
             android:layout_width="match_parent"
+            android:id="@+id/inputBox"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
 
-            <LinearLayout
-
-                android:background="@drawable/option_block"
+            <RelativeLayout
+                android:id="@+id/recipientNumber"
+                android:padding="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginTop="40dp"
-                android:orientation="vertical"
-                >
-                <RelativeLayout
-                    android:id="@+id/testSMS"
-                    android:layout_width="match_parent"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true">
+
+                <EditText
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="?attr/selectableItemBackgroundBorderless"
-                    android:clickable="true"
-                    >
-
-                    <TextView
-
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_centerInParent="true"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:text="Send Test SMS to 01975017102"
-                        android:textColor="@color/white"
-                        android:textSize="15dp"
-                        android:textStyle="bold" />
-                </RelativeLayout>
-
-            </LinearLayout>
+                    android:id="@+id/to"
+                    android:hint="RECIPIENT NUMBER"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+            </RelativeLayout>
 
         </LinearLayout>
+
+
     </ScrollView>
+
+    <LinearLayout
+        android:background="@drawable/option_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1Box"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:id="@+id/addNumber"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_centerInParent="true"
+                android:text="ADD NUMBER"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/option_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:id="@+id/button2Box"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:id="@+id/updateNumber"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_centerInParent="true"
+                android:text="UPDATE NUMBER"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/option_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:id="@+id/button3Box"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:id="@+id/removeNumber"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_centerInParent="true"
+                android:text="REMOVE NUMBER"
+                android:textColor="#eb4034"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="visible"
+        android:outlineSpotShadowColor="@color/purple_200"/>
 
 </LinearLayout>

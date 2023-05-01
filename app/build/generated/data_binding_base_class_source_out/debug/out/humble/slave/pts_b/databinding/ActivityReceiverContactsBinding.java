@@ -4,8 +4,10 @@ package humble.slave.pts_b.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,20 +23,61 @@ public final class ActivityReceiverContactsBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final RelativeLayout addNumber;
+
+  @NonNull
+  public final LinearLayout button1Box;
+
+  @NonNull
+  public final LinearLayout button2Box;
+
+  @NonNull
+  public final LinearLayout button3Box;
+
+  @NonNull
   public final ImageView goBack;
+
+  @NonNull
+  public final LinearLayout inputBox;
 
   @NonNull
   public final RelativeLayout invisibleActionBar;
 
   @NonNull
-  public final RelativeLayout testSMS;
+  public final ProgressBar progressBar;
 
-  private ActivityReceiverContactsBinding(@NonNull LinearLayout rootView, @NonNull ImageView goBack,
-      @NonNull RelativeLayout invisibleActionBar, @NonNull RelativeLayout testSMS) {
+  @NonNull
+  public final RelativeLayout recipientNumber;
+
+  @NonNull
+  public final RelativeLayout removeNumber;
+
+  @NonNull
+  public final EditText to;
+
+  @NonNull
+  public final RelativeLayout updateNumber;
+
+  private ActivityReceiverContactsBinding(@NonNull LinearLayout rootView,
+      @NonNull RelativeLayout addNumber, @NonNull LinearLayout button1Box,
+      @NonNull LinearLayout button2Box, @NonNull LinearLayout button3Box, @NonNull ImageView goBack,
+      @NonNull LinearLayout inputBox, @NonNull RelativeLayout invisibleActionBar,
+      @NonNull ProgressBar progressBar, @NonNull RelativeLayout recipientNumber,
+      @NonNull RelativeLayout removeNumber, @NonNull EditText to,
+      @NonNull RelativeLayout updateNumber) {
     this.rootView = rootView;
+    this.addNumber = addNumber;
+    this.button1Box = button1Box;
+    this.button2Box = button2Box;
+    this.button3Box = button3Box;
     this.goBack = goBack;
+    this.inputBox = inputBox;
     this.invisibleActionBar = invisibleActionBar;
-    this.testSMS = testSMS;
+    this.progressBar = progressBar;
+    this.recipientNumber = recipientNumber;
+    this.removeNumber = removeNumber;
+    this.to = to;
+    this.updateNumber = updateNumber;
   }
 
   @Override
@@ -64,9 +107,39 @@ public final class ActivityReceiverContactsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.addNumber;
+      RelativeLayout addNumber = ViewBindings.findChildViewById(rootView, id);
+      if (addNumber == null) {
+        break missingId;
+      }
+
+      id = R.id.button1Box;
+      LinearLayout button1Box = ViewBindings.findChildViewById(rootView, id);
+      if (button1Box == null) {
+        break missingId;
+      }
+
+      id = R.id.button2Box;
+      LinearLayout button2Box = ViewBindings.findChildViewById(rootView, id);
+      if (button2Box == null) {
+        break missingId;
+      }
+
+      id = R.id.button3Box;
+      LinearLayout button3Box = ViewBindings.findChildViewById(rootView, id);
+      if (button3Box == null) {
+        break missingId;
+      }
+
       id = R.id.goBack;
       ImageView goBack = ViewBindings.findChildViewById(rootView, id);
       if (goBack == null) {
+        break missingId;
+      }
+
+      id = R.id.inputBox;
+      LinearLayout inputBox = ViewBindings.findChildViewById(rootView, id);
+      if (inputBox == null) {
         break missingId;
       }
 
@@ -76,14 +149,39 @@ public final class ActivityReceiverContactsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.testSMS;
-      RelativeLayout testSMS = ViewBindings.findChildViewById(rootView, id);
-      if (testSMS == null) {
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
         break missingId;
       }
 
-      return new ActivityReceiverContactsBinding((LinearLayout) rootView, goBack,
-          invisibleActionBar, testSMS);
+      id = R.id.recipientNumber;
+      RelativeLayout recipientNumber = ViewBindings.findChildViewById(rootView, id);
+      if (recipientNumber == null) {
+        break missingId;
+      }
+
+      id = R.id.removeNumber;
+      RelativeLayout removeNumber = ViewBindings.findChildViewById(rootView, id);
+      if (removeNumber == null) {
+        break missingId;
+      }
+
+      id = R.id.to;
+      EditText to = ViewBindings.findChildViewById(rootView, id);
+      if (to == null) {
+        break missingId;
+      }
+
+      id = R.id.updateNumber;
+      RelativeLayout updateNumber = ViewBindings.findChildViewById(rootView, id);
+      if (updateNumber == null) {
+        break missingId;
+      }
+
+      return new ActivityReceiverContactsBinding((LinearLayout) rootView, addNumber, button1Box,
+          button2Box, button3Box, goBack, inputBox, invisibleActionBar, progressBar,
+          recipientNumber, removeNumber, to, updateNumber);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

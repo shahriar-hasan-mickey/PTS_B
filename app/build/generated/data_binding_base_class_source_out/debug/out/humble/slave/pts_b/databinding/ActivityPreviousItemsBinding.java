@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import humble.slave.pts_b.R;
@@ -26,11 +27,24 @@ public final class ActivityPreviousItemsBinding implements ViewBinding {
   @NonNull
   public final RelativeLayout invisibleActionBar;
 
+  @NonNull
+  public final LinearLayout outputBox;
+
+  @NonNull
+  public final RelativeLayout previousItems;
+
+  @NonNull
+  public final RecyclerView recyclerView;
+
   private ActivityPreviousItemsBinding(@NonNull LinearLayout rootView, @NonNull ImageView goBack,
-      @NonNull RelativeLayout invisibleActionBar) {
+      @NonNull RelativeLayout invisibleActionBar, @NonNull LinearLayout outputBox,
+      @NonNull RelativeLayout previousItems, @NonNull RecyclerView recyclerView) {
     this.rootView = rootView;
     this.goBack = goBack;
     this.invisibleActionBar = invisibleActionBar;
+    this.outputBox = outputBox;
+    this.previousItems = previousItems;
+    this.recyclerView = recyclerView;
   }
 
   @Override
@@ -72,7 +86,26 @@ public final class ActivityPreviousItemsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityPreviousItemsBinding((LinearLayout) rootView, goBack, invisibleActionBar);
+      id = R.id.outputBox;
+      LinearLayout outputBox = ViewBindings.findChildViewById(rootView, id);
+      if (outputBox == null) {
+        break missingId;
+      }
+
+      id = R.id.previousItems;
+      RelativeLayout previousItems = ViewBindings.findChildViewById(rootView, id);
+      if (previousItems == null) {
+        break missingId;
+      }
+
+      id = R.id.recyclerView;
+      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerView == null) {
+        break missingId;
+      }
+
+      return new ActivityPreviousItemsBinding((LinearLayout) rootView, goBack, invisibleActionBar,
+          outputBox, previousItems, recyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

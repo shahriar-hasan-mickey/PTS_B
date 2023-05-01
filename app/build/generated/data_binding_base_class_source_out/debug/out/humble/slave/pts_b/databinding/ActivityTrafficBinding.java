@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -26,11 +27,38 @@ public final class ActivityTrafficBinding implements ViewBinding {
   @NonNull
   public final RelativeLayout invisibleActionBar;
 
+  @NonNull
+  public final LinearLayout outputBox;
+
+  @NonNull
+  public final LinearLayout outputBox2;
+
+  @NonNull
+  public final RelativeLayout trafficInfo;
+
+  @NonNull
+  public final RelativeLayout trafficInfo2;
+
+  @NonNull
+  public final TextView trafficLevel;
+
+  @NonNull
+  public final TextView trafficMotion;
+
   private ActivityTrafficBinding(@NonNull LinearLayout rootView, @NonNull ImageView goBack,
-      @NonNull RelativeLayout invisibleActionBar) {
+      @NonNull RelativeLayout invisibleActionBar, @NonNull LinearLayout outputBox,
+      @NonNull LinearLayout outputBox2, @NonNull RelativeLayout trafficInfo,
+      @NonNull RelativeLayout trafficInfo2, @NonNull TextView trafficLevel,
+      @NonNull TextView trafficMotion) {
     this.rootView = rootView;
     this.goBack = goBack;
     this.invisibleActionBar = invisibleActionBar;
+    this.outputBox = outputBox;
+    this.outputBox2 = outputBox2;
+    this.trafficInfo = trafficInfo;
+    this.trafficInfo2 = trafficInfo2;
+    this.trafficLevel = trafficLevel;
+    this.trafficMotion = trafficMotion;
   }
 
   @Override
@@ -72,7 +100,44 @@ public final class ActivityTrafficBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityTrafficBinding((LinearLayout) rootView, goBack, invisibleActionBar);
+      id = R.id.outputBox;
+      LinearLayout outputBox = ViewBindings.findChildViewById(rootView, id);
+      if (outputBox == null) {
+        break missingId;
+      }
+
+      id = R.id.outputBox2;
+      LinearLayout outputBox2 = ViewBindings.findChildViewById(rootView, id);
+      if (outputBox2 == null) {
+        break missingId;
+      }
+
+      id = R.id.trafficInfo;
+      RelativeLayout trafficInfo = ViewBindings.findChildViewById(rootView, id);
+      if (trafficInfo == null) {
+        break missingId;
+      }
+
+      id = R.id.trafficInfo2;
+      RelativeLayout trafficInfo2 = ViewBindings.findChildViewById(rootView, id);
+      if (trafficInfo2 == null) {
+        break missingId;
+      }
+
+      id = R.id.trafficLevel;
+      TextView trafficLevel = ViewBindings.findChildViewById(rootView, id);
+      if (trafficLevel == null) {
+        break missingId;
+      }
+
+      id = R.id.trafficMotion;
+      TextView trafficMotion = ViewBindings.findChildViewById(rootView, id);
+      if (trafficMotion == null) {
+        break missingId;
+      }
+
+      return new ActivityTrafficBinding((LinearLayout) rootView, goBack, invisibleActionBar,
+          outputBox, outputBox2, trafficInfo, trafficInfo2, trafficLevel, trafficMotion);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -48,4 +48,8 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0' // JSON parsing library
 
     implementation 'com.squareup.okhttp3:okhttp:4.4.0'
+
+// https://mvnrepository.com/artifact/com.twilio.sdk/twilio
+//    implementation group: 'com.twilio.sdk', name: 'twilio', version: '7.9.0'
+
 }

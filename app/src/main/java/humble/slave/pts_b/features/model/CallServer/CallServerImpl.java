@@ -1,11 +1,14 @@
-package humble.slave.pts_b.features.model;
+package humble.slave.pts_b.features.model.CallServer;
 
 import android.content.Context;
+import android.util.Log;
 import android.widget.Toast;
+
+import java.util.Map;
 
 import humble.slave.pts_b.common.RequestCompleteListener;
 import humble.slave.pts_b.features.model.data.serverData.HomeServerResponse;
-import humble.slave.pts_b.features.presenter.services.ReceiveAndSendSMS;
+import humble.slave.pts_b.features.model.data.twilioAccountData.ResponseTwilio;
 import humble.slave.pts_b.network.API;
 import humble.slave.pts_b.network.RetrofitClient;
 import retrofit2.Call;
@@ -17,7 +20,7 @@ public class CallServerImpl implements CallServer{
     public void getTrafficAndTemperature(Context context, RequestCompleteListener<HomeServerResponse> callback) {
 
 
-        API api = new RetrofitClient().getRetrofit("http://192.168.1.10:8080/").create(API.class);
+        API api = new RetrofitClient().getRetrofit("http://192.168.1.13:8080/").create(API.class);
         Toast.makeText(context, "CALLING THE SERVER", Toast.LENGTH_SHORT).show();
         Call<HomeServerResponse> call = api.apiHomeServerResponse();
         call.enqueue(new Callback<HomeServerResponse>() {
@@ -41,4 +44,30 @@ public class CallServerImpl implements CallServer{
         });
 
     }
+
+    @Override
+    public void sendSMS(String ACCOUNT_SID, String base64EncodedCredentials, Map<String, String> data, RequestCompleteListener<ResponseTwilio> callback) {
+
+        API api = new RetrofitClient().getRetrofit("https://api.twilio.com/2010-04-01/").create(API.class);
+
+        Call<ResponseTwilio> call = api.sendMessage(ACCOUNT_SID, base64EncodedCredentials, data);
+
+        call.enqueue(new Callback<ResponseTwilio>() {
+            @Override
+            public void onResponse(Call<ResponseTwilio> call, Response<ResponseTwilio> response) {
+                if (response.isSuccessful()){
+                    Log.i("[DEBUG]", "SUCCESS");
+                }else{
+                    Log.i("[DEBUG]", "FAILED but responded");
+                }
+            }
+
+            @Override
+            public void onFailure(Call<ResponseTwilio> call, Throwable t) {
+                Log.i("[DEBUG]", "FAILED");
+            }
+        });
+    }
+
+
 }

@@ -1,34 +1,58 @@
 [
     {
-        "merged": "humble.slave.pts_b.app-mergeDebugResources-27:/layout/activity_home_screen.xml",
-        "source": "humble.slave.pts_b.app-main-30:/layout/activity_home_screen.xml"
+        "merged": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-mergeDebugResources-27:\\layout\\activity_traffic.xml",
+        "source": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-main-30:\\layout\\activity_traffic.xml"
     },
     {
-        "merged": "humble.slave.pts_b.app-mergeDebugResources-27:/layout/activity_previous_items.xml",
-        "source": "humble.slave.pts_b.app-main-30:/layout/activity_previous_items.xml"
+        "merged": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-mergeDebugResources-27:\\layout\\message_entry.xml",
+        "source": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-main-30:\\layout\\message_entry.xml"
     },
     {
-        "merged": "humble.slave.pts_b.app-mergeDebugResources-27:/layout/activity_weather.xml",
-        "source": "humble.slave.pts_b.app-main-30:/layout/activity_weather.xml"
+        "merged": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-mergeDebugResources-27:\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-main-30:\\layout\\activity_settings.xml"
     },
     {
-        "merged": "humble.slave.pts_b.app-mergeDebugResources-27:/layout/activity_receiver_contacts.xml",
-        "source": "humble.slave.pts_b.app-main-30:/layout/activity_receiver_contacts.xml"
+        "merged": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-mergeDebugResources-27:\\layout\\activity_set_password.xml",
+        "source": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-main-30:\\layout\\activity_set_password.xml"
     },
     {
         "merged": "humble.slave.pts_b.app-mergeDebugResources-27:/layout/activity_traffic.xml",
         "source": "humble.slave.pts_b.app-main-30:/layout/activity_traffic.xml"
     },
     {
-        "merged": "humble.slave.pts_b.app-mergeDebugResources-27:/layout/activity_settings.xml",
-        "source": "humble.slave.pts_b.app-main-30:/layout/activity_settings.xml"
+        "merged": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-mergeDebugResources-27:\\layout\\progress_bar.xml",
+        "source": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-main-30:\\layout\\progress_bar.xml"
     },
     {
-        "merged": "humble.slave.pts_b.app-mergeDebugResources-27:/layout/activity_todo_reminder.xml",
-        "source": "humble.slave.pts_b.app-main-30:/layout/activity_todo_reminder.xml"
+        "merged": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-mergeDebugResources-27:\\layout\\activity_home_screen.xml",
+        "source": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-main-30:\\layout\\activity_home_screen.xml"
     },
     {
-        "merged": "humble.slave.pts_b.app-mergeDebugResources-27:/layout/activity_main.xml",
-        "source": "humble.slave.pts_b.app-main-30:/layout/activity_main.xml"
+        "merged": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-mergeDebugResources-27:\\layout\\activity_todo_reminder.xml",
+        "source": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-main-30:\\layout\\activity_todo_reminder.xml"
+    },
+    {
+        "merged": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-mergeDebugResources-27:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-main-30:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-mergeDebugResources-27:\\layout\\activity_weather.xml",
+        "source": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-main-30:\\layout\\activity_weather.xml"
+    },
+    {
+        "merged": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-mergeDebugResources-27:\\layout\\activity_add_twilio_account.xml",
+        "source": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-main-30:\\layout\\activity_add_twilio_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-mergeDebugResources-27:\\layout\\activity_receiver_contacts.xml",
+        "source": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-main-30:\\layout\\activity_receiver_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-mergeDebugResources-27:\\layout\\set_password_content.xml",
+        "source": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-main-30:\\layout\\set_password_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-mergeDebugResources-27:\\layout\\activity_previous_items.xml",
+        "source": "C:\\Users\\shahr\\.gradle\\daemon\\8.0\\humble.slave.pts_b.app-main-30:\\layout\\activity_previous_items.xml"
     }
 ]

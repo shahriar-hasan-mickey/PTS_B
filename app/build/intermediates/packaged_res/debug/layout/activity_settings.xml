@@ -314,7 +314,7 @@
                         android:layout_marginStart="20dp"
                         android:layout_toEndOf="@id/addTwilioAccountLogo"
                         android:layout_centerVertical="true"
-                        android:text="Add Twilio Account"
+                        android:text="Add / Update Twilio Account"
                         android:textColor="@color/white"
                         android:textStyle="bold" />
                 </RelativeLayout>

@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -26,11 +27,24 @@ public final class ActivityWeatherBinding implements ViewBinding {
   @NonNull
   public final RelativeLayout invisibleActionBar;
 
+  @NonNull
+  public final LinearLayout outputBox;
+
+  @NonNull
+  public final TextView temperature;
+
+  @NonNull
+  public final RelativeLayout weatherInfo;
+
   private ActivityWeatherBinding(@NonNull LinearLayout rootView, @NonNull ImageView goBack,
-      @NonNull RelativeLayout invisibleActionBar) {
+      @NonNull RelativeLayout invisibleActionBar, @NonNull LinearLayout outputBox,
+      @NonNull TextView temperature, @NonNull RelativeLayout weatherInfo) {
     this.rootView = rootView;
     this.goBack = goBack;
     this.invisibleActionBar = invisibleActionBar;
+    this.outputBox = outputBox;
+    this.temperature = temperature;
+    this.weatherInfo = weatherInfo;
   }
 
   @Override
@@ -72,7 +86,26 @@ public final class ActivityWeatherBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityWeatherBinding((LinearLayout) rootView, goBack, invisibleActionBar);
+      id = R.id.outputBox;
+      LinearLayout outputBox = ViewBindings.findChildViewById(rootView, id);
+      if (outputBox == null) {
+        break missingId;
+      }
+
+      id = R.id.temperature;
+      TextView temperature = ViewBindings.findChildViewById(rootView, id);
+      if (temperature == null) {
+        break missingId;
+      }
+
+      id = R.id.weatherInfo;
+      RelativeLayout weatherInfo = ViewBindings.findChildViewById(rootView, id);
+      if (weatherInfo == null) {
+        break missingId;
+      }
+
+      return new ActivityWeatherBinding((LinearLayout) rootView, goBack, invisibleActionBar,
+          outputBox, temperature, weatherInfo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

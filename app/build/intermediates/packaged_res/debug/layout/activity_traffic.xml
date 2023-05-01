@@ -38,4 +38,81 @@
 
     </RelativeLayout>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="">
+    <LinearLayout
+        android:background="@drawable/option_block"
+        android:layout_width="match_parent"
+        android:id="@+id/outputBox"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/trafficInfo"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/trafficLevel"
+                android:hint="CURRENT TRAFFIC LEVEL"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="">
+        <LinearLayout
+            android:background="@drawable/option_block"
+            android:layout_width="match_parent"
+            android:id="@+id/outputBox2"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/trafficInfo2"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/trafficMotion"
+                    android:hint="CURRENT TRAFFIC MOTION STATE"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
 </LinearLayout>
